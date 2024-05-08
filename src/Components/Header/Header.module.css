@@ -1,0 +1,178 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    p {
+        font-size: 12px;
+        font-weight: 700;
+        color: rgb(102, 102, 102);
+    }
+
+    ul {
+        display: flex;
+        gap: 10px;
+
+    }
+
+    li {
+        border-right: 1px solid rgb(143, 143, 143);
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    a {
+        padding-right: 7px;
+        font-size: 13px;
+        color: rgb(102, 102, 102);
+        text-decoration: none;
+    }
+}
+
+.headerMain {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+
+.headerMainLogo {
+    width: 20%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.headerMainSearch {
+    width: 50%;
+
+    align-items: center;
+    display: flex;
+
+    select {
+        width: 10%;
+        height: 20px;
+        border: none;
+        margin-right: 10px;
+        border-radius: 100px;
+        border-radius: 1px solid rgb(168, 167, 167);
+    }
+
+    input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid rgb(168, 167, 167);
+        border-top: 1px solid rgb(168, 167, 167);
+        border-left: 1px solid rgb(168, 167, 167);
+        height: 20px;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+    }
+
+    .search {
+        padding: 5px;
+        color: rgb(107, 105, 105);
+        font-size: 12px;
+        padding-right: 6px;
+        border-bottom: 1px solid rgb(168, 167, 167);
+        border-top: 1px solid rgb(168, 167, 167);
+        background-color: aliceblue;
+        border-top-right-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+}
+
+.headerMainIcons {
+    display: flex;
+    gap: 1px;
+    color: rgb(168, 167, 167);
+    margin-right: 10px;
+
+    .hedIcons {
+        padding: 7px;
+        font-size: 15px;
+        border-right: 1px solid rgb(168, 167, 167);
+    }
+}
+
+.headerBottom {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+
+}
+
+.bottomIcon {
+    display: flex;
+    color: rgb(168, 167, 167);
+    align-items: center;
+    gap: 10px;
+}
+
+.headerMainBlue {
+    width: 130%;
+    background-color: #1E73BE;
+    display: flex;
+    justify-content: center;
+}
+
+.headerMainBlueContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        gap: 10px;
+
+    }
+
+    li {
+        border-right: 1px solid rgb(255, 255, 255);
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    a {
+        padding-right: 7px;
+        font-size: 13px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+}
+
+.headerMainBlueContact {
+    display: flex;
+    width: 30%;
+    gap: 15px;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+
+.headerMainContact {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}

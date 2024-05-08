@@ -1,0 +1,134 @@
+.Hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeroContainer {
+    display: flex;
+    width: 80%;
+   
+    flex-direction: column;
+    
+}
+
+.heroLogo {
+border-bottom: 1px solid rgb(208, 206, 206);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 16px;
+        margin: 0px;
+        padding: 10px;
+        color: rgb(85, 85, 85);
+        border-bottom: 1px solid rgb(168, 167, 167);
+        cursor: pointer;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin: 0px;
+        padding: 10px;
+        color: rgb(85, 85, 85);
+        border-bottom: 1px solid rgb(168, 167, 167);
+    }
+}
+
+.product {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.card {
+
+    width: 19%;
+
+    &:hover {
+        .cardBtn {
+            display: block;
+            margin: 0%;
+        }
+
+        .cardIcon {
+            display: block;
+            margin: 0%;
+        }
+    }
+
+
+    position: relative;
+
+    img {
+        height: 50%;
+        width: 100%;
+
+    }
+
+    p {
+        font-size: 11px;
+        margin: 1px;
+        Color: rgb(119, 119, 119)
+    }
+
+    h3 {
+        font-size: 14px;
+        margin: 1px;
+    }
+
+    .cardIcons {
+        color: rgb(28, 114, 194);
+        font-size: 10px;
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: bold;
+        Color: rgb(119, 119, 119)
+    }
+
+
+    .cardIcon {
+        position: absolute;
+        right: 10px;
+        padding: 10px;
+        margin: 10px;
+        display: none;
+        border-radius: 100px;
+        color: white;
+        top: 10px;
+        background-color: brown;
+    }
+
+    .cardBtn {
+        display: none;
+        position: absolute;
+        width: 100%;
+        color: white;
+        font-weight: 700;
+        border: none;
+        top: 190px;
+        margin: 20px;
+        background-color: rgb(19, 89, 163);
+
+        animation: slideInFromBottom 0.5s ease-out;
+    }
+}
+
+@keyframes slideInFromBottom {
+
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
